@@ -14,7 +14,6 @@ import { BeerCard } from "../../components/Molecules";
 
 // API
 import { getBeerByPage } from "../../services/api";
-import { formControlClasses } from "@mui/material";
 
 const BeerList = () => {
 	const [beers, setBeers] = useState([]);
